@@ -1,3 +1,6 @@
+
+#link kaggle:https://www.kaggle.com/pabloviana/ht-petfinder
+
 datos<-read.csv("train.csv")
 
 library(caret)
@@ -92,3 +95,15 @@ plot(prediccion)
 # Balanced Accuracy : 0.5933          
 # 
 # 'Positive' Class : 0 
+
+
+
+
+# "Después de analizar la eficiencia de los algoritmos concluimos que el más rápido en terminar es el de la hoja de trabajo 5, 
+# naive bayes, que termina aproximadamento dos segundos después de su ejecución y tiene 33% de precisión a la hora de predecir los datos
+# , como contraparte tenemos el algoritmo de árbol de decisión y regresión lineal, los cuales cuentan con tiempos variables
+# de ejecución, que siempre son considerablemente mayores a los de naive bayes y cuya precisión deja bastante que desear (29% y 15% respectivamente).
+# Por ultimo tenemos el caso de Random Forest del cual pudimos aproximar un tiempo de 40 segundos en su ejecución; y resulta ser
+# el algoritmo con un mayor índice de precisión con 38%. Ahora bien, el algoritmo de Regresion Logistica tiene un 59% de precision
+# y un tiempo de ejecucion de menos de 5 segundos. Lo cual concluimos que aunque no tenga una precision muy alta, es el mejor de todos
+# los algoritmos probados."
